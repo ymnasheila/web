@@ -124,7 +124,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Raleway', sans-serif;
   color: #444444;
 }
 
@@ -139,7 +139,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #00c27b;
+  background: #a9852f;
   color: #fff;
 }
 .back-to-top.active {
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 .get-started-btn:hover {
-  background: #00b371;
+  background: #a9852f;
   color: #fff;
 }
 @media (max-width: 992px) {
@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 3px;
+  padding: 32px 2px;
   font-size: 16px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
@@ -309,6 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   position: relative;
   letter-spacing: 1px;
+  font-weight: 600;
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -506,12 +507,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   color: #fff;
   line-height: 50px;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 600;
 }
 #hero h2 {
   color: #eee;
@@ -572,7 +573,8 @@ section {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 32px;
+  text-transform: uppercase;
+  font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -624,7 +626,7 @@ section {
   margin-bottom: 0;
 }
 .about .content .btn-learn-more {
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -714,8 +716,8 @@ section {
   color: #fff;
 }
 .cta .cta-btn {
-  font-family: 'Roboto Serif', serif;
-  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
@@ -728,7 +730,7 @@ section {
   border-radius: 50px;
 }
 .cta .cta-btn:hover {
-  background: #00b371;
+  background: #a9852f;
 }
 @media (max-width: 1024px) {
   .cta {
@@ -832,7 +834,7 @@ section {
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: #fff;
 }
@@ -1004,8 +1006,8 @@ section {
 .pricing .box h4 {
   font-size: 42px;
   color: var(--grey-600);
-  font-weight: 500;
-  font-family: 'Roboto Serif', serif;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1049,8 +1051,7 @@ section {
   border: 2px solid var(--grey-600);
   color: var(--grey-600);
   font-size: 14px;
-  font-weight: 400;
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1066,8 +1067,8 @@ section {
   color: #fff;
 }
 .pricing .recommended .btn-buy:hover {
-  background: #00b371;
-  border-color: #00b371;
+  background: #a9852f;
+  border-color: #a9852f;
 }
 .pricing .recommended-badge {
   position: absolute;
@@ -1129,10 +1130,10 @@ section {
 .faq .accordion-list a {
   display: block;
   position: relative;
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 500;
+  font-weight: 400;
   padding-right: 30px;
   outline: none;
   cursor: pointer;
@@ -1279,7 +1280,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #00b371;
+  background: #a9852f;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1348,11 +1349,11 @@ section {
   font-size: 36px;
   color: #fff;
   position: relative;
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Raleway', sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 200;
 }
 #footer p {
   font-size: 15;
@@ -1387,7 +1388,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #00b371;
+  background: #a9852f;
   color: #fff;
   text-decoration: none;
 }
@@ -1398,7 +1399,7 @@ section {
   font-size: 13px;
 }
 #footer .credits a {
-  color: #00b371;
+  color: #a9852f;
   transition: 0.3s;
 }
 #footer .credits a:hover {
@@ -1408,22 +1409,57 @@ section {
 .logo {
 display: flex;
 align-items: center;
-gap: 8px;
+gap: 10px;
 }
 
 .logo__iso {
   background: url('../img/sf_logo_b.png') no-repeat;
   display: inline-block;
     
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-size: 100%;
 }
 
 .logo__text {
   background: url('../img/sf_text_b.png') no-repeat;
   display: inline-block;
-  width: 170px;
-  height: 32px;
+  width: 180px;
+  height: 34px;
   background-size: 100%;
+}
+
+.logo-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.intro {
+  text-transform: uppercase;
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 2px;
+  transition: 0.5s;
+  background: var(--grey-600);
+  color: #fff;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background: #a9852f;
+}
+
+.btn--lg {
+  font-size: 18px;
+  font-weight: 600;
 }

@@ -645,12 +645,16 @@ section {
   text-decoration: none;
 }
 
-.about__logo {
-  width: 200px;
-  height: 200px;
-  background: url('../img/sf_logo.png') no-repeat;
-  background-size: 100%;
-  display: inline-block;
+.about {
+  background: url('../img/logo.png') center right no-repeat;
+  background-size: 25%;
+  margin: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    background: inherit;
+  }
 }
 
 /*--------------------------------------------------------------

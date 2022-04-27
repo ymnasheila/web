@@ -266,12 +266,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #a9852f;
   color: #fff;
 }
-@media (max-width: 992px) {
-  .get-started-btn {
-    margin: 0 15px 0 0;
-    padding: 6px 18px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -409,6 +403,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .navbar ul {
+    display: none;
+  }
+
+  #header .social-links {
     display: none;
   }
 }
@@ -647,16 +645,41 @@ section {
   text-decoration: none;
 }
 
+.about__logo {
+  width: 200px;
+  height: 200px;
+  background: url('../img/sf_logo.png') no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 
 .services__container-boxes {
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 200px 200px; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .services__container-boxes {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .services__container-boxes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .services__container-boxes {
+    grid-template-columns: 1fr;
+  }
 }
 
 .services .icon-box {
@@ -668,6 +691,7 @@ section {
   justify-content: center;
   flex-direction: column;
   gap: 16px;
+  padding: 40px;
 }
 
 .services .icon-box .icon {
@@ -1169,19 +1193,6 @@ section {
     padding-right: 0;
   }
 }
-@media (max-width: 992px) {
-  .faq {
-    /* img {
-      padding-top: 30px;
-    } */
-  }
-  .faq .content {
-    padding-top: 30px;
-  }
-  .faq .accordion-list {
-    padding-bottom: 30px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Contact
@@ -1378,6 +1389,12 @@ section {
   width: 26px;
   height: 26px;
   transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  #header .social-links {
+    display: none;
+  }
 }
 
 #footer .social-links a {
